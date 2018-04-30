@@ -1,5 +1,4 @@
 # Build image for upstage.tv
 
-base image is node 6.11.3
+base image is node 8.11.1
 
-global installs lerna
