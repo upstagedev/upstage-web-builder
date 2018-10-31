@@ -12,4 +12,4 @@ RUN apt-get update -qq && apt-get -y install apt-transport-https \
   && apt-get install --no-install-recommends -y -qq yarn=$YARN_VERSION-1 \
   && rm /usr/local/bin/yarn*
 
-RUN npm install -g firebase-tools@3.18.2
+RUN npm install -g firebase-tools@6.0.0
